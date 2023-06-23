@@ -1,0 +1,41 @@
+progress {
+    width: 100px;
+    height: 10px;
+  }
+  
+  .colored {
+    accent-color: rgba(255, 60, 0, 0.534);
+  }
+  .colored1{
+    accent-color: rgb(55, 234, 55);
+  }
+  .colored2{
+    accent-color: rgb(245, 245, 36);
+  }
+  .tp-margin{
+    display: inline;
+    color: #12091fc0;
+    
+  }
+  .tp-margin1{
+
+    display: inline;
+    color: #12091fc0;
+    
+  }
+  .tp-margin2{
+    display: inline;
+    color: #12091fc0;
+  }
+  .card{
+    background-color: white;
+    width:400px;
+    height:150px;
+    margin-left: 100px;
+    margin-top:5px;
+    border-radius: 25px;
+  border: 2px ;
+}
+.card-subtitle{
+    color:brown;
+}

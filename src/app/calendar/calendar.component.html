@@ -1,0 +1,32 @@
+
+
+ <table>
+  <thead>
+    <tr>
+      
+     Today Schedule:
+      <div class="box-container"><span style="color:black">{{ currentDate | date:'mediumDate' }}</span><br><br></div>
+      <div class="date">
+     <th *ngFor="let date of currentWeek"
+        [ngClass]="{ 'today': date.toDateString() === currentDate.toDateString() }">
+        {{ date | date:'EEE' }}<br>{{ date | date:'MMM d' }}
+        
+      
+      </th>
+    </div>
+    
+    
+    </tr><br><br>
+      <tr class="head">
+        <mat-icon>group</mat-icon>Meeting with Ron Harios<img src="/assets/images/icon.png" width="52px" height="52px">
+      </tr><br><br>
+      
+      <tr class="head">
+        <mat-icon>group</mat-icon>Meeting with Ron Harios<img src="/assets/images/icon.png" width="52px" height="52px">
+
+      </tr><br><br>
+      
+      </thead>
+</table>
+
+
